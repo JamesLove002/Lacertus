@@ -1,6 +1,5 @@
 ﻿namespace LacertusStartup
 {
-
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -21,7 +20,6 @@ using System.Diagnostics;
 			}
 		}
 		public string correctPassword(string usernameInput)
-		
 		{
 				string sql = String.Format(@"SELECT UD_Password FROM [User_Data]
 											WHERE UD_Username = {0}", usernameInput);
